@@ -1,0 +1,18 @@
+/* Large-LG -- SMALL LAPTOPS: 1024px -- 1280px */
+
+@media (max-width: 72rem) {
+    /*  1150px / 16 = 72rem */
+    /* 72rem x 16px = 1152px */
+    html {
+        font-size: 56.25%;
+        /* 9px / 16px = 56.25% */
+    }
+
+    .features-grid-container {
+        column-gap: 2rem;
+    }
+
+    .cta-section {
+        margin-bottom: 20rem;
+    }
+}

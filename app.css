@@ -106,7 +106,7 @@ Black: #000000 (Black)
 
 html {
     font-size: 62.5%;
-    /* 10px / 16px = 62.5% */
+    /* 10px / 16px (default browser font size) = 62.5% */
 }
  
 body {
@@ -262,13 +262,11 @@ span {
     gap: 2rem;
 }
 
-
 /* ------- HERO SECTION ------- */
 
 .hero-section {
     height: calc(100vh - var(--nav-height));
     min-height: 400px;
-    
     margin-bottom: 10rem;
     display: flex;
     flex-direction: column;
@@ -283,6 +281,7 @@ span {
 
 .hero-paragraph {
     margin-bottom: 5rem;
+    text-align: center;
 }
 
 .hero-btn-container {
